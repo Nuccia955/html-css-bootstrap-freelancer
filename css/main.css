@@ -1,20 +1,23 @@
 /* PROVVISORY UTILITIES */
 /* header */
 header .nav_box {
-    height:90px;
+    line-height: 90px;
 }
 
 /* hero */
 .hero .logo {
-    height: 250px;
+    height: 200px;
 }
 
 h1 {
     height: 50px;
 }
 
-hr {
-    height: 15px;
+.hero hr,
+.portfolio hr,
+.about hr,
+.contact hr {
+    height: 2px;
 }
 
 .hero nav {
@@ -41,12 +44,27 @@ h2 {
 
 /* contact */
 .box {
+    height: 90px;
+    border-bottom: 1px solid black;
+}
+
+.small_box {
     height: 60px;
 }
 
-.box:last-child {
-    height: 100px;
+.contact > .box:last-child {
+    height: 150px;
 }
+
+/* footer */
+footer {
+    color: white;
+}
+
+.copyright {
+    line-height: 90px;
+}
+
 
 /*PROVVISORY COLORS */
 .bordered {
@@ -79,4 +97,16 @@ h2 {
 
 .bg_acquamarine {
     background-color: #1abc9c;
+}
+
+.bg_darkblue {
+    background-color: #3a546d;
+}
+
+.bg_white {
+    background-color: white;
+}
+
+.bg_black {
+    background-color: black;
 }
