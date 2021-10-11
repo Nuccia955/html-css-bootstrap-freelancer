@@ -1,0 +1,54 @@
+/* PROVVISORY UTILITIES */
+/* header */
+header .nav_box {
+    height:90px;
+}
+
+.hero .logo {
+    height: 250px;
+}
+
+.hero h1 {
+    height: 50px;
+}
+
+.hero hr {
+    height: 15px;
+}
+
+.hero nav {
+    height: 24px
+}
+
+/*PROVVISORY COLORS */
+.bordered {
+    border: 1px solid black;
+}
+
+.bg_red {
+    background-color: red;
+}
+
+.bg_orange {
+    background-color: orange;
+}
+
+.bg_yellow {
+    background-color: yellow;
+}
+
+.bg_green {
+    background-color: green;
+}
+
+.bg_lightblue {
+    background-color: lightblue;
+}
+
+.bg_lightblack {
+    background-color: #2c3e50;
+}
+
+.bg_acquamarine {
+    background-color: #1abc9c;
+}
