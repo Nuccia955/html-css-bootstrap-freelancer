@@ -4,6 +4,7 @@ header .nav_box {
     height:90px;
 }
 
+/* hero */
 .hero .logo {
     height: 250px;
 }
@@ -12,12 +13,21 @@ header .nav_box {
     height: 50px;
 }
 
-.hero hr {
+hr {
     height: 15px;
 }
 
 .hero nav {
     height: 24px
+}
+
+/* portfolio */
+.portfolio h2 {
+    height: 35px;
+}
+
+.card {
+    height: 250px;
 }
 
 /*PROVVISORY COLORS */
