@@ -1,7 +1,16 @@
 /* PROVVISORY UTILITIES */
 /* header */
-header .nav_box {
-    line-height: 90px;
+.main_header .site_navbar a.ms_link {
+    color: white;
+}
+
+.main_header .site_navbar .ms_brand {
+    font-size: 1.5rem;
+}
+
+.main_header .site_navbar .ms_brand:hover,
+.main_header .site_navbar a.ms_link:hover {
+    color: #1abc9c ;
 }
 
 /* hero */
