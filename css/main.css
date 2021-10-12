@@ -14,12 +14,42 @@
 }
 
 /* portfolio */
-h2 {
-    height: 35px;
+.portfolio .card {
+    border: none;
 }
 
-.card {
-    height: 250px;
+.portfolio .card .img_container {
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+}
+
+.portfolio .card img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.card_add {
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(26, 188, 156, 0.5);
+    transition: opacity 0.2s ease-in;
+}
+
+.card_add:hover {
+    opacity: 1;
+}
+
+.card_add i {
+    font-size: 3rem;
+    color: #fff;
 }
 
 /* about */
