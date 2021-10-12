@@ -53,12 +53,27 @@
 }
 
 /* about */
-.content_1, .content_2 {
-    height: 250px;
+.about_text {
+    margin: 0 auto;
 }
 
-.button {
-    height: 30px;
+.content_1,
+.content_2 {
+    font-size: 0.9rem;
+}
+
+.about button.ms_button {
+    width: 130px;
+    line-height: 1.2rem;
+    font-size: 1rem;
+    color: white;
+    border: 1px solid currentColor;
+    border-radius: 5px;
+}
+
+.about button.ms_button:hover {
+    background-color: #149b80 ;
+    border-color: #149b80 ;
 }
 
 /* contact */
