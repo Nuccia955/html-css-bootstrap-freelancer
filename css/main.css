@@ -13,26 +13,6 @@
     color: #1abc9c ;
 }
 
-/* hero */
-.hero .logo {
-    height: 200px;
-}
-
-h1 {
-    height: 50px;
-}
-
-.hero hr,
-.portfolio hr,
-.about hr,
-.contact hr {
-    height: 2px;
-}
-
-.hero nav {
-    height: 24px
-}
-
 /* portfolio */
 h2 {
     height: 35px;
