@@ -85,7 +85,7 @@
 }
 
 .contact form.ms_form input:not([type="submit"]),
-textarea {
+.contact form.ms_form textarea.ms_textarea {
     border: none;
     border-radius: 0;
     border-bottom: 1px solid lightgray;
@@ -93,8 +93,8 @@ textarea {
     padding-right: 0;
 }
 
-.contact form.ms_form input::placeholder,
-.contact form.ms_form textarea::placeholder {
+.contact form.ms_form input::placeholder, 
+.contact form.ms_form textarea.ms_textarea::placeholder {
     color: #2c3e50;
 }
 
